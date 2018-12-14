@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?n6dls');
+  src:  url('fonts/icomoon.eot?n6dls#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?n6dls') format('truetype'),
+    url('fonts/icomoon.woff?n6dls') format('woff'),
+    url('fonts/icomoon.svg?n6dls#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e900";
+}
+.icon-zhihu:before {
+  content: "\e901";
+}
+.icon-blog:before {
+  content: "\e903";
+}
+.icon-gitlab:before {
+  content: "\e904";
+}
+.icon-jianshu:before {
+  content: "\e902";
+}
