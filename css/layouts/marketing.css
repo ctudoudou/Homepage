@@ -135,7 +135,7 @@ a.pure-button-primary {
 
 .splash-container {
     background: #1f8dd6;
-    background-image: url("/index/img/wallhaven-723068.png");
+    background-image: url("img/wallhaven-723068.png");
     background-size: 100% 100%;
     opacity: 0.7;
     z-index: 1;
@@ -252,7 +252,7 @@ a.pure-button-primary {
     .splash-container {
         opacity: 0.7;
         /*filter: blur(2px);*/
-        background-image: url("/index/img/wallhaven-81317.jpg");
+        background-image: url("img/wallhaven-81317.jpg");
         background-size: 100% 100%;
     }
 
@@ -301,10 +301,10 @@ a.pure-button-primary {
     }
 
     .splash-container {
-        mix-blend-mode: difference;
+        /*mix-blend-mode: difference;*/
         /*opacity: 0.7;*/
         /*filter: blur(2px);*/
-        background-image: url("/index/img/wallhaven-81317.jpg");
-        background-size: 100% 100%;
+        background-image: url("img/wallhaven-81317.jpg");
+        background-size: 100vw 100vh;
     }
 }
