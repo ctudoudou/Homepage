@@ -36,6 +36,16 @@
             border-radius: 5px;
             text-decoration: none;
             color: #fff;
+            line-height: 2.5em;
+        }
+
+        .splash > div {
+            display: inline;
+            white-space: nowrap;
+        }
+        .splash > div > div{
+            display: inline;
+            white-space: nowrap;
         }
     </style>
 </head>
@@ -48,19 +58,33 @@
         <p class="splash-subhead" style="mix-blend-mode: difference;">
             一个从事Web开发与机器学习的退役CTFer
         </p>
-        <p style="line-height: 4em;mix-blend-mode: difference;">
+        <!--<div style="line-height: 3em;display: inline;">-->
+        <p style="line-height: 3em;mix-blend-mode: difference;">
+        <div>
             <a href="https://blog.soudou.net.cn" class="list"><span class="icon-blog"></span>&nbsp;博客</a>
+        </div>
+        <div>
             <a href="https://github.com/ctudoudou" class="list"><span class="icon-github"></span>&nbsp;Github</a>
+        </div>
+        <div>
             <a href="https://gitlab.com/ctudoudou" class="list"><span class="icon-gitlab"></span>&nbsp;Gitlab</a>
-            <a href="https://www.zhihu.com/people/tu-dou-dou-27-10/activities" class="list"><span
-                    class="icon-zhihu"></span>&nbsp;知乎</a>
-            <a href="https://www.jianshu.com/u/59ca0f7888e9" class="list"><span class="icon-jianshu"></span>&nbsp;简书</a>
+        </div>
+        <div>
+            <div>
+                <a href="https://www.zhihu.com/people/tu-dou-dou-27-10/activities" class="list">
+                    <span class="icon-zhihu"></span>&nbsp;知乎</a>
+            </div>
+            <div>
+                <a href="https://www.jianshu.com/u/59ca0f7888e9" class="list">
+                    <span class="icon-jianshu"></span>&nbsp;简书</a>
+            </div>
+        </div>
         </p>
     </div>
 </div>
 
 <div class="footer">
-    <p>&copy;2016-2018 土豆豆 All rights reserved.</p>
+    <p>&copy;2016-2019 土豆豆 All rights reserved.</p>
 </div>
 <script>
     var _mtac = {};
